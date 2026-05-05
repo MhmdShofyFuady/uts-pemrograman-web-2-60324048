@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/27382048/README.md)
+[README.md](https://github.com/user-attachments/files/27382085/README.md)
 # UTS Pemrograman Web 2 — Sistem Manajemen Kategori Buku
 
 ## Identitas
@@ -21,13 +21,6 @@ Aplikasi web sederhana berbasis **PHP & MySQL** untuk mengelola data Kategori Bu
 - ✅ **Update** — Edit data kategori yang sudah ada
 - ✅ **Delete** — Hapus kategori dengan konfirmasi JavaScript
 
-### Fitur Unggulan
-- Validasi server-side menyeluruh (format kode, panjang karakter, duplikasi, dll.)
-- Semua query menggunakan **Prepared Statement** (aman dari SQL Injection)
-- Flash message session untuk feedback sukses/error
-- Character counter real-time pada form input
-- Badge berwarna untuk status (Aktif/Nonaktif)
-- UI responsif dengan Bootstrap 5 dan Bootstrap Icons
 
 ---
 
@@ -41,8 +34,8 @@ Aplikasi web sederhana berbasis **PHP & MySQL** untuk mengelola data Kategori Bu
 
 1. **Clone repository** ke folder `htdocs` (XAMPP) atau `www` (WAMP):
    ```bash
-   git clone https://github.com/USERNAME/uts-pemrograman-web-2-NIM.git
-   # Letakkan di: C:/xampp/htdocs/uts_NIM/
+   git clone https://github.com/MhmdShofyFuady/uts-pemrograman-web-2-60324048.git
+   # Letakkan di: /Applications/XAMPP/xamppfiles/htdocs/
    ```
 
 2. **Import database** via phpMyAdmin atau command line:
@@ -56,12 +49,12 @@ Aplikasi web sederhana berbasis **PHP & MySQL** untuk mengelola data Kategori Bu
 
 3. **Konfigurasi koneksi** — buka `config/database.php` dan sesuaikan:
    ```php
-   define('DB_NAME', 'uts_perpustakaan_NIM'); // Ganti NIM
+   define('DB_NAME', 'uts_perpustakaan_60324048');
    ```
 
 4. **Jalankan aplikasi** di browser:
    ```
-   http://localhost/uts_NIM/index.php
+   http://localhost/uts_60324048/index.php
    ```
 
 ---
@@ -69,7 +62,7 @@ Aplikasi web sederhana berbasis **PHP & MySQL** untuk mengelola data Kategori Bu
 ## Struktur Folder
 
 ```
-uts_NIM/
+uts_60324048/
 ├── config/
 │   └── database.php       # Konfigurasi & koneksi database + helper functions
 ├── database/
@@ -83,20 +76,8 @@ uts_NIM/
 
 ---
 
-## Stack Teknologi
-
-| Teknologi | Versi |
-|---|---|
-| PHP | 7.4+ |
-| MySQL | 5.7+ |
-| Bootstrap | 5.3.0 |
-| Bootstrap Icons | 1.10.5 |
-
----
-
 ## Link Repository GitHub
 
 ```
-https://github.com/USERNAME/uts-pemrograman-web-2-NIM
+https://github.com/MhmdShofyFuady/uts-pemrograman-web-2-60324048.git
 ```
-*(Ganti USERNAME dan NIM sesuai akun dan NIM Anda)*
