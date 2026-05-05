@@ -64,14 +64,14 @@ Aplikasi web sederhana berbasis **PHP & MySQL** untuk mengelola data Kategori Bu
 ```
 uts_60324048/
 ├── config/
-│   └── database.php       # Konfigurasi & koneksi database + helper functions
+│   └── database.php       
 ├── database/
-│   └── database_backup.sql # Export database (struktur + sample data)
-├── index.php              # READ — Daftar semua kategori
-├── create.php             # CREATE — Form tambah kategori baru
-├── edit.php               # UPDATE — Form edit kategori
-├── delete.php             # DELETE — Proses hapus kategori
-└── README.md              # Dokumentasi ini
+│   └── database_backup.sql 
+├── index.php              
+├── create.php            
+├── edit.php               
+├── delete.php             
+└── README.md              
 ```
 
 ---
